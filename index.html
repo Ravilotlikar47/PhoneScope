@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+
+<title>PhoneScope™</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="container">
+
+<img src="images/logo.png"
+class="logo">
+
+
+
+<div class="badge">
+
+<span id="badgeText">
+
+Designed by a Pathologist
+
+</span>
+
+</div>
+
+<h1 class="hero-title">
+
+Turn Your Microscope into a Digital Imaging System
+
+</h1>
+
+<p class="hero-description">
+
+PhoneScope™ is a smartphone microscope adapter that securely connects your smartphone to compatible microscopes, allowing you to capture high-quality microscope photos and videos.
+
+</p>
+
+<p class="hero-tagline">
+
+    <div class="intro-price">
+
+💚 Introductory Price
+
+<div class="price-amount">
+
+₹950
+
+</div>
+
+<div class="price-small">
+
+One-Time Purchase
+
+</div>
+
+</div>
+
+Capture. Record. Share.
+
+</p>
+
+<div class="buttons">
+
+<a href="https://youtube.com/@smartphonemicroscopy"
+
+target="_blank"
+
+class="demo">
+
+▶ Watch Demo
+
+</a>
+
+<a href="#"
+
+class="order">
+
+🟢 Explore PhoneScope
+
+</a>
+
+</div>
+
+<img src="images/device.jpg"
+
+class="device">
+
+</div>
+
+<section class="action-section">
+
+<h2>PhoneScope in Action</h2>
+
+<p class="action-subtitle">
+
+See how PhoneScope makes microscopy easier in everyday laboratory practice.
+
+</p>
+
+<div class="action-slider">
+
+<img id="actionImage"
+src="images/action1.jpg"
+alt="PhoneScope in Action">
+
+</div>
+
+<div class="action-caption"
+id="actionCaption">
+
+Teaching students using one microscope.
+
+</div>
+
+</section>
+
+<section class="how-it-works">
+
+<h2>How PhoneScope Works</h2>
+
+<p class="how-subtitle">
+Three simple steps to transform your microscope into a digital imaging system.
+</p>
+
+<div class="how-grid">
+
+<div class="how-card">
+
+<div class="how-icon">📱</div>
+
+<h3>Attach</h3>
+
+<p>
+Securely attach your smartphone to the microscope using PhoneScope™.
+</p>
+
+</div>
+
+<div class="how-card">
+
+<div class="how-icon">🔬</div>
+
+<h3>Capture</h3>
+
+<p>
+Capture high-quality microscope photos and HD videos with your phone.
+</p>
+
+</div>
+
+<div class="how-card">
+
+<div class="how-icon">📤</div>
+
+<h3>Share</h3>
+
+<p>
+Instantly share microscope images for teaching, diagnosis and documentation.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="compatibility">
+
+<h2>Already Tested on Popular Microscopes</h2>
+
+<p class="compatibility-subtitle">
+
+PhoneScope™ has been successfully tested on the following microscope models.
+
+</p>
+<div class="compatibility-slider">
+
+<img
+id="microscopeImage"
+src="images/cx23.jpg"
+class="slider-image">
+
+<h3 id="microscopeName">
+
+Olympus CX23
+
+</h3>
+
+<p class="compatible">
+
+✔ Personally Tested
+
+</p>
+
+<div class="slider-buttons">
+
+<button onclick="previousMicroscope()">
+
+⬅ Previous
+
+</button>
+
+<button onclick="nextMicroscope()">
+
+Next ➡
+
+</button>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="compatibility-box">
+
+<h3>Don't see your microscope?</h3>
+
+<p>
+
+Send us a photo or model number of your microscope.
+
+If PhoneScope fits your microscope successfully,
+
+<b>you'll receive a ₹200 Thank You Reward.</b>
+
+</p>
+
+<a href="https://wa.me/918369697677"
+
+target="_blank"
+
+class="compatibility-btn">
+
+📸 Check My Microscope
+
+</a>
+
+</div>
+
+</section>
+
+<section class="faq">
+
+<div class="container">
+
+<h2>Still Have Questions?</h2>
+
+<p class="faq-subtitle">
+
+We've answered the questions we hear most often.
+
+</p>
+
+<div class="accordion" id="faqAccordion">
+
+<!-- FAQ 1 -->
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button"
+
+type="button"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#faq1">
+
+What is PhoneScope™?
+
+</button>
+
+</h2>
+
+<div id="faq1"
+
+class="accordion-collapse collapse show"
+
+data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+PhoneScope™ is a smartphone microscope adapter that securely attaches your smartphone to compatible microscopes, allowing you to capture high-quality microscope photos and videos.
+
+</div>
+
+</div>
+
+</div>
+
+<!-- FAQ 2 -->
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button collapsed"
+
+type="button"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#faq2">
+
+Will PhoneScope fit my microscope?
+
+</button>
+
+</h2>
+
+<div id="faq2"
+
+class="accordion-collapse collapse"
+
+data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+PhoneScope has already been tested on multiple microscope models. If your microscope isn't listed, simply send us its model number or photo. If we successfully make it compatible, you'll receive a ₹200 Thank You Reward.
+
+</div>
+
+</div>
+
+</div>
+
+<!-- FAQ 3 -->
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button collapsed"
+
+type="button"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#faq3">
+
+Do I need any mobile app?
+
+</button>
+
+</h2>
+
+<div id="faq3"
+
+class="accordion-collapse collapse"
+
+data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+No. PhoneScope works directly with your smartphone's camera. No additional app or software is required.
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+<div class="text-center mt-4">
+
+<p>Didn't find your answer?</p>
+
+<button
+class="btn btn-outline-primary"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#moreFaqs">
+
+➕ Show More Questions
+
+</button>
+
+</div>
+
+<div class="collapse mt-4" id="moreFaqs">
+
+<!-- FAQ 4 -->
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button collapsed"
+
+type="button"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#faq4">
+
+Can I record microscope videos?
+
+</button>
+
+</h2>
+
+<div id="faq4"
+
+class="accordion-collapse collapse"
+
+data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+Yes. PhoneScope allows you to capture both high-quality microscope photos and HD videos using your smartphone.
+
+</div>
+
+</div>
+
+</div>
+
+<!-- FAQ 5 -->
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button collapsed"
+
+type="button"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#faq5">
+
+How do I order PhoneScope?
+
+</button>
+
+</h2>
+
+<div id="faq5"
+
+class="accordion-collapse collapse"
+
+data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+Simply click any WhatsApp button on this website. We'll help you check compatibility, answer your questions and guide you through the ordering process.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="gallery">
+
+<h2>Captured with PhoneScope™</h2>
+
+<p class="gallery-subtitle">
+Real microscope images captured using PhoneScope.
+</p>
+
+<div class="gallery-grid">
+
+<img src="images/gallery1.jpg" alt="Gallery 1">
+
+<img src="images/gallery2.jpg" alt="Gallery 2">
+
+<img src="images/gallery3.jpg" alt="Gallery 3">
+
+<img src="images/gallery4.jpg" alt="Gallery 4">
+
+<img src="images/gallery5.jpg" alt="Gallery 5">
+
+<img src="images/gallery6.jpg" alt="Gallery 6">
+
+</div>
+
+</section>
+
+<section class="order-section">
+
+<h2>Interested in PhoneScope?</h2>
+
+<p>
+Have questions or want to order?<br>
+We'll reply personally on WhatsApp.
+</p>
+
+<div class="order-box">
+
+<input
+type="text"
+id="customerName"
+placeholder="Your Name">
+
+<input
+type="tel"
+id="customerPhone"
+placeholder="Phone Number">
+
+<button onclick="sendWhatsApp()">
+
+🟢 Continue on WhatsApp
+
+</button>
+
+</div>
+
+</section>
+
+<section class="price-section">
+
+<h2>Simple Pricing</h2>
+
+<p class="price-subtitle">
+
+Everything you need to start capturing microscope photos and videos.
+
+</p>
+
+<div class="price-card">
+
+<div class="price-title">
+
+PhoneScope™
+
+</div>
+
+<div class="price">
+
+₹950
+
+</div>
+
+<p class="price-note">
+
+One-time purchase
+
+</p>
+
+<div class="price-features">
+
+<p>✅ Ready to Use</p>
+
+<p>✅ Personally Tested</p>
+
+<p>✅ Compatible with Supported Microscopes</p>
+
+<p>✅ Shipping charges excluded</p>
+
+<p>✅ WhatsApp Support Included</p>
+
+</div>
+
+<a href="https://wa.me/918369697677"
+
+target="_blank"
+
+class="price-button">
+
+🟢 Order on WhatsApp
+
+</a>
+
+</div>
+
+</section>
+<section class="inventor">
+
+<h2>Meet the Inventor</h2>
+
+<div class="inventor-box">
+
+<img src="images/ravi.jpg" class="inventor-photo">
+
+<div class="inventor-text">
+
+<h3>Dr Ravi Lotliker</h3>
+
+<h4>MD Pathology</h4>
+
+<p>
+
+GMC (Surat)<br><br>
+
+As a practicing pathologist, I designed <strong>PhoneScope™</strong> to make digital microscopy affordable, simple and accessible for every laboratory.
+ My goal is to help pathologists, laboratory technicians and students capture, record and share high-quality microscope images using the smartphones they already own.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+</section>
+<a href="https://wa.me/918369697677"
+
+class="whatsapp-float"
+
+target="_blank"
+
+title="Chat on WhatsApp">
+
+💬
+
+</a>
+<footer class="footer">
+
+<div class="footer-logo">
+
+<img src="images/logo.png" class="footer-logo-img">
+
+<h3>PhoneScope™</h3>
+
+<p>Capture. Record. Share.</p>
+
+</div>
+
+<div class="footer-links">
+
+<a href="https://youtube.com/@smartphonemicroscopy"
+target="_blank">
+
+📺 PhoneScope Channel
+
+</a>
+
+<a href="https://youtube.com/@labtechnician_pathology"
+target="_blank">
+
+🎓 PhoneScope Academy
+
+</a>
+
+<a href="https://wa.me/918369697677"
+target="_blank">
+
+💬 WhatsApp
+
+</a>
+
+</div>
+
+<hr>
+
+<p class="copyright">
+
+© 2026 PhoneScope™<br>
+
+Designed by Dr Ravi Lotliker
+
+</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
