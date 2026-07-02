@@ -342,29 +342,29 @@ updateReview();
 
 function sendWhatsApp(){
 
-const name=document.getElementById("customerName").value.trim();
+const name = document.getElementById("customerName").value.trim();
 
-const phone=document.getElementById("customerPhone").value.trim();
+const city = document.getElementById("customerCity").value.trim();
 
-if(name==="" || phone===""){
+if(name===""){
 
-alert("Please enter your name and phone number.");
+alert("Please enter your name.");
 
 return;
 
 }
 
-const message=`Hello Dr Ravi,
+const message = `Hello Dr Ravi,
 
 My Name: ${name}
-Phone: ${phone}
 
-I would like to know more about PhoneScope™.`;
+City: ${city || "Not Mentioned"}
 
-window.open(
-`https://wa.me/918369697677?text=${encodeURIComponent(message)}`,
-"_blank"
-);
+I have a question about PhoneScope™ / I would like to place an order.`;
+
+const url = "https://wa.me/918369697677?text=" + encodeURIComponent(message);
+
+window.location.href = url;
 
 }
 const heroImages = [
