@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://phonescope.netlify.app/sitemap.xml
+Sitemap: https://ravilotlikar47.github.io/PhoneScope/sitemap.xml
